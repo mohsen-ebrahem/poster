@@ -1,0 +1,44 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-evenly; */
+}
+
+.content .user{
+    background-color: rgb(207, 207, 219,0.3);
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .user .user-info{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px;
+}
+
+.content .user .user-control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ .content .user div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+}
+
+.content .user a{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}

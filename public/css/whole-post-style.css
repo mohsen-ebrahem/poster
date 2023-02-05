@@ -1,0 +1,94 @@
+body{
+    background-color: rgba(245, 239, 239,0.2);
+}
+
+.par{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    height: 741px;
+    width: 13%;
+    position: fixed;
+    border-right: 1px solid rgb(201, 199, 199);
+    display: flex;
+    flex-direction: column;
+}
+
+#poster{
+    margin-right: 2px;
+    text-align: right;
+    font-family: fantasy;
+    font-size: 40px;
+    color: cadetblue;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: 741px;
+margin-left: 16%;
+    width: 80%;
+}
+
+#navid{
+    position: relative;
+    left: 65%;
+    background-color: rgba(189, 183, 183,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20%;
+    margin-top: 310px;
+    width: 28%;
+    height: 30%;
+}
+i{
+    color: cadetblue;
+}
+.content .blog{
+    /* height: 160px; */
+    min-height: 200px;
+    background-color: rgb(207, 207, 219,0.1);
+    margin-top: 10%;
+    padding: 20px;
+    color: dimgray;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow-y: hidden; */
+}
+
+
+
+ .post-content{
+    margin-top: 30px;
+    /* height: 70px;
+    overflow-y: hidden; */
+} 
+
+.content .blog .user{
+    font-weight: 600;
+    color: black;
+}
+
+.content .blog .head-blog{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content .blog .set{
+    color:black;
+    direction: rtl;
+}
+
+#navid a{
+    color:rgba(47, 79, 79,0.3);
+}
+ a :hover{
+    color:rgb(47, 79, 79);   
+} 
